@@ -11,7 +11,7 @@ public class timeMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        float movespeed = PlayerController.moveSpeed;
+        float movespeed = PlayerController.Instance.moveSpeed;
         float h = Input.GetAxisRaw("Horizontal");
         transform.Translate(Vector3.right * h * movespeed * Time.deltaTime, Space.World);
     }

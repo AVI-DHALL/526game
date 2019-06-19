@@ -4,15 +4,23 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - antidote
+  - poison
+  - RecoverStand
+  - Items
+  - FireBall
   - Edge
   - EnemyBall
-  - FireBall
-  - Bullet
-  - Items
+  - RedSlot
+  - BlueSlot
+  - RandomSlot
   - Damage2
-  - Damage1
-  - poison
-  - antidote
+  - Slots
+  - ExitGameButton
+  - shortAttack
+  - Saw
+  - Portal
+  - Death
   layers:
   - Default
   - TransparentFX
@@ -22,7 +30,7 @@ TagManager:
   - UI
   - 
   - 
-  - Ground
+  - 
   - 
   - 
   - 
@@ -47,12 +55,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 3819961763
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Backgroud
-    uniqueID: 3649719565
+  - name: BulletSlot Layer1
+    uniqueID: 3996179067
     locked: 0
-  - name: foreground
-    uniqueID: 636935265
+  - name: boudaries
+    uniqueID: 386629349
+    locked: 0
+  - name: record
+    uniqueID: 1725611691
+    locked: 0
+  - name: endGame
+    uniqueID: 1880787093
+    locked: 0
+  - name: time
+    uniqueID: 1504422297
     locked: 0
